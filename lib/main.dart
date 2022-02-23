@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.red,
           title: Text("Golo.com"),
         ),
         body: ListView(
@@ -30,13 +30,13 @@ class MyApp extends StatelessWidget {
                   Row(
                     children: [
                       Container(
-                        padding: EdgeInsets.only(right: 20,left: 70,top: 15,bottom: 15),
+                        padding: EdgeInsets.only(right: 50,left: 70,top: 15,bottom: 15),
                         child: Text('Berita Terbaru'),
                         alignment: Alignment.center,
                       ),
                       Container(
                         child: Text('Pertandingan Hari Ini'),
-                        padding: EdgeInsets.only(right: 20,left: 70,top: 15,bottom: 15),
+                        padding: EdgeInsets.only(right: 50,left: 70,top: 15,bottom: 15),
                         alignment: Alignment.center,
                       ),
                     ],
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
                               height: 123.5,
                               width: 223.5,
                               child: Text('Gacor Bersama Inter, Kok Lukaku Mandul Di Chelsea?',
-                              textAlign: TextAlign.center,
+                              textAlign: TextAlign.left,
                               style: TextStyle(
                                 fontSize: 17.5,
                               ),
@@ -152,7 +152,7 @@ class MyApp extends StatelessWidget {
                               width: 249,
                               decoration: BoxDecoration(
                                 image: DecorationImage(
-                                  image: NetworkImage('https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf76a2d6f4e596c87/62042ea1147c3c0cc757189a/Untitled.jpg?auto=webp&format=pjpg&quality=60&width=320'),
+                                  image: NetworkImage('https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/blt9c2e292728428dff/61d5c263bf4f2741ce3f60ae/Persebaya-vs-Barito-Putera-1638625713.jpeg?auto=webp&format=pjpg&quality=60&width=320'),
                                 fit: BoxFit.cover
                                 ),
                               ),
@@ -164,10 +164,10 @@ class MyApp extends StatelessWidget {
                               color: Colors.white,
                               height: 123.5,
                               width: 223.5,
-                              child: Text('Gacor Bersama Inter, Kok Lukaku Mandul Di Chelsea?',
-                              textAlign: TextAlign.center,
+                              child: Text('Pilih Jepang Ketimbang Korsel, Marselino Bakal Susul Arhan?',
+                              textAlign: TextAlign.left,
                               style: TextStyle(
-                                fontSize: 17.5,
+                                fontSize: 19,
                               ),
                               ),
                             ),
@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
                           color: Colors.white,
                           height: 48,
                           width: 473,
-                            child: Text('Inggris Feb 2, 2022',
+                            child: Text('Indonesia Feb 2, 2022',
                               textAlign: TextAlign.left,
                               style: TextStyle(
                               fontSize: 17.5,
