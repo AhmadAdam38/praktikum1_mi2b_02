@@ -85,7 +85,60 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.all(10),
+                    margin: EdgeInsets.only(top: 10,left: 10,right: 10),
+                    height: 175,
+                    width: 475,
+                    color: Colors.blueGrey,
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(top: 1,left: 1),
+                              height: 124,
+                              width: 249,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: NetworkImage('https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf76a2d6f4e596c87/62042ea1147c3c0cc757189a/Untitled.jpg?auto=webp&format=pjpg&quality=60&width=320'),
+                                fit: BoxFit.cover
+                                ),
+                              ),
+                            ),
+                            Container(
+                              padding: EdgeInsets.only(left: 5),
+                              margin: EdgeInsets.only(top: 1.5,right: 1.5),
+                              alignment: Alignment.center,
+                              color: Colors.white,
+                              height: 123.5,
+                              width: 223.5,
+                              child: Text('Gacor Bersama Inter, Kok Lukaku Mandul Di Chelsea?',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 17.5,
+                              ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          padding: EdgeInsets.only(left: 5),
+                          margin: EdgeInsets.all(1),
+                          color: Colors.white,
+                          height: 48,
+                          width: 473,
+                            child: Text('Inggris Feb 2, 2022',
+                              textAlign: TextAlign.left,
+                              style: TextStyle(
+                              fontSize: 17.5,
+                              ),
+                            ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(top: 10,left: 10,right: 10),
                     height: 175,
                     width: 475,
                     color: Colors.blueGrey,
